@@ -16,8 +16,12 @@
               "base": "./dist",
               "browser": "."
             },
-            "browser": "index.tsx",
-            "tsConfig": "tsconfig.json"
+            "browser": "index.html",
+            "tsConfig": "tsconfig.json",
+            "assets": [
+              "favicon.ico",
+              "assets"
+            ]
           },
           "configurations": {
             "production": {
@@ -40,15 +44,15 @@
             "production": {
               "buildTarget": "app:build:production"
             },
-            "development": {
-              "buildTarget": "app:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
+              "development": {
+                "buildTarget": "app:build:development"
+              }
+            },
+            "defaultConfiguration": "development"
+          }
         }
       }
-    }
-  },
+    },
   "cli": {
     "analytics": "c5d17133-e967-42ed-bad6-35cac335886b"
   }

@@ -117,8 +117,8 @@ export class AppComponent implements OnInit {
       name: 'OnCallActingDriver Platform',
       description: 'A comprehensive platform connecting users with professional acting drivers for safe and reliable transportation services.',
       tags: ['Angular', '.NET', 'MySQL', 'Azure'],
-      imageUrl: 'https://images.unsplash.com/photo-1619642751222-5572625f54a8?q=80&w=800',
-      link: '#'
+      imageUrl: 'assets/vishal.jpeg',
+      link: 'https://www.oncallactingdriver.com'
     },
     {
       name: 'Responsive Personal Portfolio',
